@@ -1,0 +1,149 @@
+<style type="text/css"><!--
+#senfe {
+ width: 650px;
+ border-top: #E3E3E3 1px solid;
+ border-left: #E3E3E3 1px solid;
+}
+#senfe td {
+ padding: 5px;border-right: #E3E3E3 1px solid;
+ border-bottom: #E3E3E3 1px solid;
+}
+#senfe2 {
+ width: 650px;
+ border-top: #E3E3E3 1px solid;
+ border-left: #E3E3E3 1px solid;
+}
+#senfe2 td {
+ padding: 5px;border-right: #E3E3E3 1px solid;
+ border-bottom: #E3E3E3 1px solid;
+}
+--></style>
+<script language="javascript"><!--
+function senfe(o,a,b,c,d){
+ var t=document.getElementById(o).getElementsByTagName("tr");
+ for(var i=0;i<t.length;i++){
+  t[i].style.backgroundColor=(t[i].sectionRowIndex%2==0)?a:b;
+  t[i].onclick=function(){
+   if(this.x!="1"){
+    this.x="1";//本来打算直接用背景色判断，FF获取到的背景是RGB值，不好判断
+    this.style.backgroundColor=d;
+   }else{
+    this.x="0";
+    this.style.backgroundColor=(this.sectionRowIndex%2==0)?a:b;
+   }
+  }
+  t[i].onmouseover=function(){
+   if(this.x!="1")this.style.backgroundColor=c;
+  }
+  t[i].onmouseout=function(){
+   if(this.x!="1")this.style.backgroundColor=(this.sectionRowIndex%2==0)?a:b;
+  }
+ }
+}
+--></script>
+    <P><TABLE id="senfe" cellSpacing=0 cellPadding=0 width="650px" border=0>
+  <TBODY>
+  <TR>
+    <TD colSpan=7><H3 id=about2>电子杂志制作价格表</H3></TD></TR>
+  <TR>
+    <TD width="12%">版 本</TD>
+    <TD width="12%">简易版</TD>
+    <TD width="13%">普及版</TD>
+    <TD width="13%">标准版</TD>
+    <TD width="14%">专业版</TD>
+    <TD width="15%">创意版</TD>
+    <TD width="15%">经典版</TD>
+  </TR>
+  <TR>
+    <TD>制作周期</TD>
+    <TD>5天以内</TD>
+    <TD>10天以内</TD>
+    <TD>10天-15天</TD>
+    <TD>30天-45天</TD>
+    <TD>与客户另行协商</TD>
+    <TD>与客户另行协商</TD>
+  </TR>
+<TR>
+    <TD>制作周期</TD>
+    <TD>5天以内</TD>
+    <TD>10天以内</TD>
+    <TD>10天-15天</TD>
+    <TD>30天-45天</TD>
+    <TD>与客户另行协商</TD>
+    <TD>与客户另行协商</TD>
+  </TR>
+<TR>
+    <TD>制作周期</TD>
+    <TD>5天以内</TD>
+    <TD>10天以内</TD>
+    <TD>10天-15天</TD>
+    <TD>30天-45天</TD>
+    <TD>与客户另行协商</TD>
+    <TD>与客户另行协商</TD>
+  </TR>
+   <TR>
+    <TD colspan="7">    <p style="color:red">如果客户长期期刊制作合作，价格将更加优惠。</p></TD>
+    </TR>
+  </TBODY></TABLE>
+  
+  
+<script language="javascript"><!--
+function senfe2(o,a,b,c,d){
+ var t=document.getElementById(o).getElementsByTagName("tr");
+ for(var i=0;i<t.length;i++){
+  t[i].style.backgroundColor=(t[i].sectionRowIndex%2==0)?a:b;
+  t[i].onclick=function(){
+   if(this.x!="1"){
+    this.x="1";//本来打算直接用背景色判断，FF获取到的背景是RGB值，不好判断
+    this.style.backgroundColor=d;
+   }else{
+    this.x="0";
+    this.style.backgroundColor=(this.sectionRowIndex%2==0)?a:b;
+   }
+  }
+  t[i].onmouseover=function(){
+   if(this.x!="1")this.style.backgroundColor=c;
+  }
+  t[i].onmouseout=function(){
+   if(this.x!="1")this.style.backgroundColor=(this.sectionRowIndex%2==0)?a:b;
+  }
+ }
+}
+--></script>
+    <TABLE id="senfe2" cellSpacing=0 cellPadding=0 width="650px" 
+border=0>
+      <TBODY>
+        <TR>
+          <TD colSpan=3><H3 id=about2>电子杂志制作单项价格表</H3></TD></TR>
+        <TR>
+          <TD width="12%">单项项目</TD>
+        <TD width="26%">单价</TD>
+        <TD width="46%">备注</TD>
+        </TR>
+        <TR>
+          <TD>专业配音</TD>
+        <TD>面议</TD>
+        <TD>专业录音棚+专业录音员，看配音内容多少而定</TD>
+        </TR>
+        <TR>
+          <TD>专业拍摄</TD>
+        <TD>面议</TD>
+        <TD>专业摄影看客户需求而定</TD>
+        </TR>
+      </TBODY>
+    </TABLE>
+    </P>
+  </LI>
+</UL>
+</DIV></DIV></DIV>
+<script language="javascript"><!--
+//senfe("表格名称","奇数行背景","偶数行背景","鼠标经过背景","点击后背景");
+senfe("senfe","#fff","#F5F5F5","#FFFFCC","#FFFF84");
+--></script>
+<script language="javascript"><!--
+//senfe("表格名称","奇数行背景","偶数行背景","鼠标经过背景","点击后背景");
+senfe2("senfe","#fff","#F5F5F5","#FFFFCC","#FFFF84");
+--></script>
+</font>
+
+<a href="http://www.cssfan.cn">欢迎访问cssfan.cn</a>
